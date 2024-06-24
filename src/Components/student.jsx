@@ -37,7 +37,7 @@ function Student() {
                                     <button className="bg-black p-1 text-white my-3  px-3 border rounded-md active:scale-95 "
                                         onClick={() => addToFavourites(student)}>Add To Favourites
                                     </button>
-                                    <FontAwesomeIcon className="mr-1 pl-3" icon={regularHeart} />
+                                    <button onClick={()=>addToFavourites(student)} ><FontAwesomeIcon className="mr-1 pl-3" icon={regularHeart} /></button>
                                 </div>)}
                         </div>
                     </div>
